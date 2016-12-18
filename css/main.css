@@ -1,0 +1,384 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	overflow-x: hidden;
+	font-family: Arial;
+}
+.wrapper {
+	min-height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.header {
+	width: 100%;
+	min-height: 90px;
+	background-color: #8cc34b;
+	box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+.header__foto,
+.header__info,
+.header__social {
+	display: inline-block;
+}
+
+/*  Блок с фото user'a  */
+.header__foto {
+	height: 60px;
+	width: 6%;
+	border-radius: 50%;
+	margin: 0 auto;
+	padding-left: 28px;
+	padding-top: 15px;
+}
+.foto__user {
+	height: 60px;
+	width: 60px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	display: block;
+	cursor: pointer;
+}
+/* Блок с ФИО и email*/
+.header__info {
+	width: 30%;
+}
+.text__fio {
+	width: 100%;
+	color: #ffffff;
+	font-size: 21.26px;
+	padding-left: 20px;
+}
+.text__Email {
+	width: 100%;
+	color: #d2e7b8;
+	font-size: 21.26px;
+	padding-left: 20px;
+}
+
+/* SOCIAL icons*/
+.header__social {
+	width: 63.3%;
+	margin: 0 auto;
+	position: relative;
+}
+.social__icons {
+	width: 100%;
+	padding: 0 0 0 77%;
+}
+.git, .skype, .vk {
+	font-size: 30px;
+	padding-left: 20px;
+	color: #ddedc9;
+	cursor: pointer;
+}
+.git:hover {
+	color: #333;
+}
+.skype:hover {
+	color: #3eb5fd;
+}
+.vk:hover{
+	color: #fff;
+}
+
+
+/*CONTENT*/
+.content {
+	min-height: 470px;
+	width: 80%;
+	margin: 0 10%;
+}
+.complite {
+	text-align: center;
+	min-height: 500px;
+	display: none;
+	line-height: 500px;
+}
+.complite__icon,
+.complite__text {
+	display: inline-block;
+}
+.complite__text {
+	font-size: 41.63px;
+	color: green;
+	font-weight: bold;
+}
+.content__title,
+.courses__title {
+	width: 100%;
+	font-size: 42px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 15px;
+}
+
+.content__about,
+.courses__about {
+	color: #727272;
+	font-size: 21px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.content__img-left,
+.content__text-left,
+.content__img-right,
+.content__text-right {
+	display: inline-block;
+}
+.content__text-left,
+.content__text-right {
+	padding-left: 20px;
+}
+
+.content__text-left,
+.content__text-right {
+	vertical-align: top;
+}
+.text__left-title,
+.text__right-title {
+	font-size: 21px;
+	font-weight: bold;
+	width: 100%;
+	font-family: Arial;
+}
+.text__left-bottom,
+.text__right-bottom {
+	font-size: 15px;
+	color: #727272;
+	font-family: Arial;
+}
+
+.content__img-left {
+	width: 15%;
+}
+.content__text-left {
+	width: 34%;
+}
+.content__img-right {
+	width: 15%;
+}
+.content__text-right {
+	width: 34.7%;
+}
+
+/* COURSES */
+.courses {
+	width: 100%;
+	height: auto;
+	background-image: url("../gplaypattern.png");
+}
+
+.courses__list {
+	width: 81.5%;
+	margin: 0 9%;
+}
+.list__js,
+.list__jq,
+.list__base,
+.list__respons,
+.list__btn,
+.list__gallery {
+	display: inline-block;
+	width: 31.05%;
+	margin-left: 2%;
+	vertical-align: top;
+	margin-bottom: 30px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.list__js:hover,
+.list__jq:hover,
+.list__base:hover,
+.list__respons:hover,
+.list__btn:hover,
+.list__gallery:hover {
+	opacity: 0.7;
+	box-shadow: none;
+	cursor: pointer;
+}
+.list__js:hover  .js {
+	border-bottom: 5px solid #03afef;
+}
+.list__js:hover  .js__title {
+	color: #03afef;
+}
+.list__jq:hover  .jq {
+	border-bottom: 5px solid #0072bb;
+}
+.list__jq:hover  .jq__title {
+	color: #0072bb;
+}
+
+.list__base:hover  .base {
+	border-bottom: 5px solid #22bf64;
+}
+.list__base:hover  .base__title {
+	color: #22bf64;
+}
+
+.list__respons:hover  .js {
+	border-bottom: 5px solid #fea63a;
+}
+.list__respons:hover  .js__title {
+	color: #fea63a;
+}
+.list__btn:hover  .jq {
+	border-bottom: 5px solid #6051a5;
+}
+.list__btn:hover  .jq__title {
+	color: #6051a5;
+}
+
+.list__gallery:hover  .base {
+	border-bottom: 5px solid #2c2c2c;
+}
+.list__gallery:hover  .base__title {
+	color: #2c2c2c;
+}
+
+
+
+.jq,
+.js,
+.base {
+	width: 100%;    //95%
+	display: block;
+} 
+.jq {
+	margin: 0 auto;
+}
+/*.base {
+	margin: 0 0 0 5%;
+}
+*/
+.text__about-js,
+.text__about-jq,
+.text__about-base,
+.text__about-respons,
+.text__about-btn,
+.text__about-gallery {
+	background-color: #fff;
+	width: 100%;
+}
+/*.text__about-jq {
+	margin: 0 2.5%;
+}
+.text__about-base {
+	margin: 0 5%;
+}
+*/
+.js__title,
+.jq__title,
+.base__title {
+	font-size: 21px;
+}
+.js__text,
+.jq__text,
+.base__text {
+	color: #727272;
+	width:80%;
+}
+.js__text,
+.js__title,
+.js__time {
+	margin: 0 6%;
+}
+.js__title,
+.js__time,
+.jq__title,
+.jq__time,
+.base__title,
+.base__time {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.js__time,
+.jq__time,
+.base__time {
+	color: #c5c5c5;
+}
+
+.jq__title,
+.jq__text,
+.jq__time {
+	margin: 0 8%;
+}
+
+.base__text,
+.base__title,
+.base__time {
+	margin: 0 11%;
+}
+.js__cheked,
+.jq__cheked,
+.base__cheked {
+	height: 60px;
+	width: 100%;
+	background-color: #f6f7f2;
+}
+.js__cheked,
+.jq__cheked,
+.base__cheked {
+	padding-top: 20px;
+}
+
+.cheked1 {
+	margin: 0 6%;
+}
+.cheked2 {
+	margin: 0 6% 0 8%;
+}
+.cheked3 {
+	margin: 0 6% 0 11%;
+}
+.cheked__cheked,
+.cheked__text1,
+.cheked__text2,
+.cheked__text3,
+.cheked__text4,
+.cheked__text5,
+.cheked__text6 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+input[type="checkbox"] {
+	color: red;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+}
+.cheked__js {
+	margin: 0 6%;
+}
+
+.cheked__jq
+ {
+	margin: 0 8%;
+}
+
+.cheked__base {
+	margin: 0 11%;
+}
+.empty {
+	height: 70px;
+	width: 100%;
+}
+.footer {
+	height: 70px;
+	width: 100%;
+	background-color: #212121;
+	color: #828282;
+	margin-top: -70px;
+	position: relative;
+}
+.footer__text {
+	text-align: center;
+	padding-top: 20px;
+}

@@ -1,0 +1,521 @@
+/* Large desktop */
+@media (min-width: 1098px) and (max-width: 1347px) { 
+ .wrapper {
+ 	width: 100%;
+ }
+ .header__foto,
+ .header__info,
+ .header__social {
+ 	display: block;
+ 	width: 100%;
+ 	text-align: center;
+ }
+ .header__info {
+ 	padding-top: 30px;
+ }
+ .foto__user {
+ 	margin: 0 auto;
+ }
+ .social__icons {
+ 	width: 100%;
+ 	padding: 0;
+ }
+ .git,.skype, .vk {
+ 	width: auto;
+ 	margin: 0 auto;
+ 	padding: 15px;
+ }
+}
+@media (min-width: 1098px) and (max-width: 1292px) {
+	.content__text-left,
+	.content__text-right {
+		display: block;
+	}
+	.content__text-left,
+	.content__img-left {
+		display: inline-block;
+		width: 49%;
+	}
+	.content__text-left {
+		padding-bottom: 20px;
+	}
+	.content__img-left img {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.content__text-right,
+	.content__img-right {
+		display: inline-block;
+		width: 49%;
+	}
+	.content__img-right img {
+		margin: 0 auto;
+		display: block;
+	}
+	.content__text-right {
+		padding-bottom: 50px;
+	}
+	 .text__left-bottom,
+	 .text__right-bottom {
+	 	font-size: 15px;
+	 }
+	.text__left-title,
+	.text__right-title {
+		font-size: 19px;
+		font-weight: bold;
+		width: 100%;
+		font-family: Arial;
+	}
+
+	// COURSES 
+	.courses__list {
+		width: 81.5%;
+		margin: 0 auto;
+	}
+	.list__js,
+	.list__jq,
+	.list__base,
+	.list__respons,
+	.list__btn,
+	.list__gallery {
+		display: inline-block;
+		width: 30.5%;
+	}
+
+
+}
+@media (min-width: 768px) and (max-width: 1097px) {
+.wrapper {
+ 	width: 100%;
+ }
+ .header__foto,
+ .header__info,
+ .header__social {
+ 	display: block;
+ 	width: 100%;
+ 	text-align: center;
+ }
+ .header__info {
+ 	padding-top: 30px;
+ }
+ .foto__user {
+ 	margin: 0 auto;
+ }
+ .social__icons {
+ 	width: 100%;
+ 	padding: 0;
+ }
+ .git,.skype, .vk {
+ 	width: auto;
+ 	margin: 0 auto;
+ 	padding: 15px;
+ }
+// CONTETN 
+.content__text-left,
+	.content__text-right {
+		display: block;
+	}
+	.content__text-left,
+	.content__img-left {
+		display: inline-block;
+		width: 49%;
+	}
+	.content__text-left {
+		padding-bottom: 20px;
+	}
+	.content__img-left img {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.content__text-right,
+	.content__img-right {
+		display: inline-block;
+		width: 49%;
+	}
+	.content__img-right img {
+		margin: 0 auto;
+		display: block;
+	}
+	.content__text-right {
+		padding-bottom: 50px;
+	}
+
+	.content__title,
+	.courses__title {
+		width: 100%;
+		font-size: 35px;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 70px;
+		padding-bottom: 15px;
+	}
+	.content__about,
+	.courses__about {
+		color: #727272;
+		font-size: 18px;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	 .text__left-bottom,
+	 .text__right-bottom {
+	 	font-size: 14px;
+	 }
+	.text__left-title,
+	.text__right-title {
+		font-size: 17px;
+		font-weight: bold;
+		width: 100%;
+		font-family: Arial;
+	}
+// COURSES
+	.courses__list {
+		width: 81.5%;
+		margin: 0 auto;
+	}
+	.list__js,
+	.list__jq,
+	.list__base,
+	.list__respons,
+	.list__btn,
+	.list__gallery {
+		display: inline-block;
+		width: 47%;
+		background-color: red;
+	}
+
+
+
+}
+/* Landscape phone to portrait tablet */
+@media (min-width: 571px) and (max-width: 767px) { 
+.wrapper {
+ 	width: 100%;
+ }
+ .header__foto,
+ .header__info,
+ .header__social {
+ 	display: block;
+ 	width: 100%;
+ 	text-align: center;
+ }
+ .header__info {
+ 	padding-top: 30px;
+ }
+ .foto__user {
+ 	margin: 0 auto;
+ }
+ .social__icons {
+ 	width: 100%;
+ 	padding: 0;
+ }
+ .git,.skype, .vk {
+ 	width: auto;
+ 	margin: 0 auto;
+ 	padding: 15px;
+ }
+ // CONTETN 
+.content__text-left,
+	.content__text-right {
+		display: block;
+	}
+	.content__text-left,
+	.content__img-left {
+		display: inline-block;
+		width: 49%;
+	}
+	.content__text-left {
+		padding-bottom: 20px;
+	}
+	.content__img-left img {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.content__text-right,
+	.content__img-right {
+		display: inline-block;
+		width: 49%;
+	}
+	.content__text-right {
+		padding-bottom: 20px;
+	}
+	.content__img-right img {
+		margin: 0 auto;
+		display: block;
+	}
+	
+	.content__title,
+	.courses__title {
+		width: 100%;
+		font-size: 33px;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 70px;
+		padding-bottom: 15px;
+	}
+	.content__about,
+	.courses__about {
+		color: #727272;
+		font-size: 17px;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	 .text__left-bottom,
+	 .text__right-bottom {
+	 	font-size: 14px;
+	 }
+	.text__left-title,
+	.text__right-title {
+		font-size: 17px;
+		font-weight: bold;
+		width: 100%;
+		font-family: Arial;
+	}
+
+
+	// COURSES
+	.courses__list {
+		width: 81.5%;
+		margin: 0 auto;
+	}
+	.list__js,
+	.list__jq,
+	.list__base,
+	.list__respons,
+	.list__btn,
+	.list__gallery {
+		display: inline-block;
+		width: 45%;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 570px) { 
+.wrapper {
+ 	width: 100%;
+ }
+ .header__foto,
+ .header__info,
+ .header__social {
+ 	display: block;
+ 	width: 100%;
+ 	text-align: center;
+ }
+ .header__info {
+ 	padding-top: 30px;
+ }
+ .foto__user {
+ 	margin: 0 auto;
+ }
+ .social__icons {
+ 	width: 100%;
+ 	padding: 0;
+ }
+ .git,.skype, .vk {
+ 	width: auto;
+ 	margin: 0 auto;
+ 	padding: 15px;
+ }
+ // CONTETN 
+.content__text-left,
+	.content__text-right {
+		display: block;
+	}
+	.content__text-left,
+	.content__img-left {
+		display: inline-block;
+		width: 49%;
+	}
+	.content__text-left {
+		padding-bottom: 20px;
+	}
+	.content__img-left img {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.content__text-right,
+	.content__img-right {
+		display: inline-block;
+		width: 49%;
+	}
+	.content__text-right {
+		padding-bottom: 20px;
+	}
+	.content__img-right img {
+		margin: 0 auto;
+		display: block;
+	}
+	
+	.content__title,
+	.courses__title {
+		width: 100%;
+		font-size: 33px;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 70px;
+		padding-bottom: 15px;
+	}
+	.content__about,
+	.courses__about {
+		color: #727272;
+		font-size: 17px;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	 .text__left-bottom,
+	 .text__right-bottom {
+	 	font-size: 14px;
+	 }
+	.text__left-title,
+	.text__right-title {
+		font-size: 17px;
+		font-weight: bold;
+		width: 100%;
+		font-family: Arial;
+	}
+
+
+	// COURSES
+	.courses__list {
+		width: 81.5%;
+		margin: 0 auto;
+	}
+	.list__js,
+	.list__jq,
+	.list__base,
+	.list__respons,
+	.list__btn,
+	.list__gallery {
+		display: block;
+		width: 100%;
+	}
+}
+
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+.wrapper {
+ 	width: 100%;
+ }
+ .header__foto,
+ .header__info,
+ .header__social {
+ 	display: block;
+ 	width: 100%;
+ 	text-align: center;
+ }
+ .header__info {
+ 	padding-top: 30px;
+ }
+ .foto__user {
+ 	margin: 0 auto;
+
+ }
+
+
+ .header__foto {
+	height: 120px;
+	width: 50%;
+	border-radius: 50%;
+	margin: 0 auto;
+	padding-left: 28px;
+	padding-top: 15px;
+}
+.foto__user {
+	height: 120px;
+	width: 120px;
+}
+
+ .social__icons {
+ 	width: 100%;
+ 	padding: 0;
+ }
+ .git,.skype, .vk {
+ 	width: auto;
+ 	margin: 0 auto;
+ 	padding: 15px;
+ }
+
+	// CONTETN 
+.content__text-left,
+	.content__text-right {
+		display: block;
+	}
+	.content__text-left,
+	.content__img-left {
+		display: block;
+		width: 100%;
+	}
+	.content__text-left {
+		padding-bottom: 20px;
+	}
+	.content__img-left img {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.content__text-right,
+	.content__img-right {
+		display: block;
+		width: 100%;
+	}
+	.content__text-right {
+		padding-bottom: 20px;
+	}
+	.content__img-right img {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.content__title,
+	.courses__title {
+		width: 100%;
+		font-size: 29px;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 70px;
+		padding-bottom: 15px;
+	}
+	.content__about,
+	.courses__about {
+		color: #727272;
+		font-size: 16px;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	 .text__left-bottom,
+	 .text__right-bottom {
+	 	font-size: 14px;
+	 }
+	.text__left-title,
+	.text__right-title {
+		font-size: 17px;
+		font-weight: bold;
+		width: 100%;
+		font-family: Arial;
+	}
+	
+	// COURSES
+	.courses__list {
+		width: 81.5%;
+		margin: 0 auto;
+	}
+	.list__js,
+	.list__jq,
+	.list__base,
+	.list__respons,
+	.list__btn,
+	.list__gallery {
+		display: block;
+		width: 100%;
+	}
+	.footer__text {
+		font-size: 14px;
+	}
+
+}
